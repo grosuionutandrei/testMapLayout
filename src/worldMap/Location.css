@@ -1,0 +1,17 @@
+.location{
+    -fx-background-color: red;
+    -fx-border-radius: blue;
+
+}
+
+
+
+.country_operational{
+    -fx-fill: green;
+}
+.country_operational:hover{
+    -fx-fill: blue;
+}
+.country_operational:selected{
+    -fx-fill: yellow;
+}
