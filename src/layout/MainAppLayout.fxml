@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="mainLayout" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="mapContainer" alignment="CENTER" StackPane.alignment="CENTER" />
+      <StackPane fx:id="firstLayout" disable="true" prefHeight="768.0" prefWidth="1024.0" visible="false" />
+      <StackPane fx:id="secondLayout" disable="true" prefHeight="768.0" prefWidth="1024.0" visible="false" />
+   </children>
+</StackPane>

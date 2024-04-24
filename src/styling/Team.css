@@ -1,0 +1,31 @@
+.VBox {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 1);
+}
+
+.Label {
+    -fx-text-fill: #333;
+    -fx-font-size: 18px;
+}
+
+.Ellipse {
+    -fx-stroke: #333;
+    -fx-stroke-width: 2px;
+}
+
+.HBox {
+    -fx-background-color: #e0e0e0;
+    -fx-padding: 10px;
+}
+
+.PieChart {
+    -fx-background-color: #fff;
+}
+.close:hover{
+    -fx-background-color:#C42B1C ;
+}

@@ -1,0 +1,9 @@
+.team{
+    -fx-background-color: #fff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.team:hover{
+    -fx-background-color: #64145E;
+}

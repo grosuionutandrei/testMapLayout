@@ -4,14 +4,16 @@
 
 }
 
-
+.world_map{
+    -fx-background-color: #fff;
+}
 
 .country_operational{
-    -fx-fill: green;
+    -fx-fill: #143664;
 }
 .country_operational:hover{
-    -fx-fill: blue;
+    -fx-fill: #64145E;
 }
 .country_operational:selected{
-    -fx-fill: yellow;
+    -fx-fill: #644214;
 }
