@@ -4,6 +4,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import layout.MainLayout;
+import secondApproach.SecondAproach;
 import worldMap.WorldMap;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -16,7 +17,9 @@ launch(args);
     @Override
     public void start(Stage primaryStage) throws Exception {
       MainLayout mainLayout = new MainLayout();
+        SecondAproach secondAproach = new SecondAproach();
         Scene scene = new Scene(mainLayout.getMainLayout());
+
         primaryStage.setTitle("WorldMapTest");
         primaryStage.setScene(scene);
         primaryStage.show();

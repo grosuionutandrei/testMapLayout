@@ -6,6 +6,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.layout.StackPane;
 import javafx.util.Callback;
 import org.controlsfx.control.WorldMapView;
+import testFactory.CloseObjectFactory;
 import testePage.TestPage;
 import java.io.IOException;
 import java.net.URL;
@@ -64,6 +65,8 @@ public class WorldMap implements Initializable {
                 this.firstLayout.getChildren().add(testPage.getRoot());
                 this.firstLayout.setVisible(true);
                 this.firstLayout.setDisable(false);
+                //CloseObjectFactory.getWindowCloser(CloseObjectFactory.CloserType.SECONDLAYOUT).closeWindow();
+
             }
         });
     }

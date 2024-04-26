@@ -40,7 +40,7 @@ addcloselistener(this.closeButton);
 
     private void addcloselistener(VBox vBox){
         vBox.addEventHandler(MouseEvent.MOUSE_CLICKED, event->{
-            CloseObjectFactory.getWindowCloser().closeWindow();
+            CloseObjectFactory.getWindowCloser(CloseObjectFactory.CloserType.STACKPANECLOSER).closeWindow();
         });
     }
 }
